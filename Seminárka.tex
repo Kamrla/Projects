@@ -1,3 +1,4 @@
+
 \documentclass[a4paper,12pt]{article}
 
 %\usepackage{natbib}
@@ -8,7 +9,7 @@
 \usepackage{latexsym}
 \usepackage{graphicx}
 \usepackage{blindtext}
-
+\usepackage{wrapfig}
 \usepackage{doc}
 
 \newtheorem*{theorem}{Theorem}
@@ -59,7 +60,7 @@
 
 \smallskip
 \begin{center}
-{\large Author Name (Name Surname)}
+{\large Jan Kamrla}
 \end{center}
 
 \smallskip
@@ -78,19 +79,34 @@ full paper. For text in abstract and keywords, use Italics, 10pt. Leave one blan
 Leave a double blank line after your keywords.}
 
 \bigskip
-\section{Introduction}
-\label{sec:1}
-\blindtext
+\section{Úvod}
+Ačkoli se lékařští roboti za posledních několik desetiletí ohromně vyvinuli, a jejich
+vliv na zlepšení celkové péče o pacienty je nepopiratelný, současný stav robotiky v lekářstvý je pouze na začátku svého vývoje.
 
-\section{Problem Formulation (Equations)}
+Obor lékařské robotiky je mnohem širší, než si lidé obvykle myslí. Ve většině případů se věří, že robotika je pouze pro chirurgy, zubaře, oftalmology a používá se většinou jen v nemocnicích, oépak je ale pravdou. Robotika slouží také lidem, postižení nebo na nich jinak závislí ostatní a kteří nemohli žít normální život. Používá se také pro rentgen, socializaci, rehabilitace a interakce s lidmi nejen v nemocnicích, ale i v domácnostech.
+
+Co se týče chirurgických operací, některé z nich by dnes v lékařství ani nebyly možné kdyby
+roboti nebyli k dispozici a tak dobře technologicky prokročilý. Dnes se s jejich pomocí provádějí operace jejichž velká přesnost, kvalita, obratnost a bezpečnost vede k rychlejšímu zotavení pacienta, kratšímu pobytu v nemocnici, snížení krevních ztrát, minimálnímu zjizvení, sníženínému rizika infekce a nižším celkovým nákladům.Lékařští roboti také umožňují pacientům komunikovat s lékaři a specialisty, kteří pomocí robotické pomoci můžou provádět lékařská vyšetření v domácnosti.
+
+\pagebreak
+
+\section{Historie robotiky v lékařství}
 \label{sec:2}
-Mathematical equations must be centered and numbered as follows:~\eqref{eq:01},~\eqref{eq:02},$\ldots$, (99).
-\begin{equation}z^{EO}=\min\limits_{e,\,g(\xi)}\mathbb{E}(F(\xi,e,g(\xi))),
-\label{eq:01}
-\end{equation}
-\begin{equation} a_{min}\leq a\leq a_{max}.
-\label{eq:02}
-\end{equation}
+Moore, Eric J.. "robotic surgery". Encyclopedia Britannica, 23 Nov. 2018, https://www.britannica.com/science/robotic-surgery. Accessed 6 March 2022.
+\\
+
+Konceptem vzdálené chirurgie neboli telechirurgie se v 70. letech zabýval americký Národní úřad pro letectví a vesmír (NASA), který se zajímal o jeho aplikaci pro astronauty na oběžné dráze. Základní myšlenkou bylo, že stroj vybavený chirurgickými nástroji by mohl být umístěn na vesmírné stanici a řízen chirurgem na Zemi. Podobným plánem se zabývala americká Agentura pro pokročilé obranné výzkumné projekty (DARPA). Výzkumníci DARPA pracovali na vývoji vzdálené telechirurgické jednotky, která by umožnila provádět chirurgické zákroky na raněných na bojišti. Ačkoli ani jedna z těchto myšlenek nebyla plně realizována, pokrok v robotických telechirurgických konceptech a v telekomunikačních technologiích umožnil v roce 2001 operaci Lindbergh, při níž francouzský lékař Jacques Marescaux a chirurg kanadského původu Michel Gagner provedli vzdálenou cholecystektomii (odstranění žlučníku) z New Yorku na pacientovi ve francouzském Štrasburku. Navzdory průlomu se telechirurgii nepodařilo získat širokou popularitu z mnoha důvodů, včetně časových zpoždění mezi kontrolním a provozním koncem.
+
+Dalším cílem robotické chirurgie bylo odstranění nežádoucího pohybu. První chirurgický robot, PUMA 560, byl použit v roce 1985 při stereotaxické operaci, při které byla použita počítačová tomografie k vedení robota, když zaváděl jehlu do mozku pro biopsii, což je postup, který dříve podléhal chybám způsobeným třesem ruky během umístění jehly.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[scale=0.25]{Puma 560.png}
+\caption{Please write your figure caption here}
+\label{fig:1}
+\end{center}
+\end{figure}
+
 
 \subsection{Subsection}
 \label{subsec:1}
@@ -136,7 +152,7 @@ Fig.~2,\,\dots{} etc. (see Fig.~\ref{fig:1}), Table 1, Table 2,\,\dots{} etc. (s
 %
 \begin{figure}[h]
 \begin{center}
-\includegraphics[scale=0.25]{image/i4c.png}
+\includegraphics[scale=0.25]{Puma 560.png}
 \caption{Please write your figure caption here}
 \label{fig:1}
 \end{center}
@@ -165,7 +181,6 @@ Param no. 2 & $\pi$    & 3.14\\
 \section{Conclusion}
 \label{sec:2}
 %\blindtext
-dsadasddsad
 % References
 %
 \begingroup
@@ -182,3 +197,15 @@ dsadasddsad
 \endgroup
 
 \end{document}
+© 2022 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
